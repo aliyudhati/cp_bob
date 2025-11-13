@@ -56,8 +56,10 @@
       }
 
       ul {
-        list-style: none;
-        padding: 0;
+        list-style-type: disc; /* menampilkan list bulat */
+        padding-left: 25px; /* beri jarak agar bullet tidak menempel */
+        text-align: left; /* rata kiri agar lebih rapi */
+        display: inline-block; /* supaya daftar tetap di tengah */
         margin-top: 20px;
         font-size: 1.1rem;
       }
@@ -103,11 +105,20 @@
             <h1>Ir. Bob Lahiradja, MBA</h1>
             <h2>CEO of:</h2>
             <ul>
-              <li>PT. Balanta Budi Prima</li>
-              <li>SMK Taruna Budi Bangsa</li>
-              <li>SMP Terpadu Prima Bangsa</li>
-              <li>Boarding Islamic Centre</li>
-              <li>Barita Madinah</li>
+              <li><h5>PT. Balanta Budi Prima</h5></li>
+
+              <h6>Address : Jl. Utan Kayu raya no 102 Jakarta 13120</h6>
+
+              <li><h5>SMK Taruna Budi Bangsa</h5></li>
+              <h5>&</h5>
+              <li><h5>SMP Terpadu Prima Bangsa</h5></li>
+
+              <h6>
+                Address : Jl. Merpati No. 3 RT 02/ RW 03, Rawa Panjang,
+                Kecamatan Bojonggede, Kab. Bogor – Jawa Barat
+              </h6>
+              <li><h5>Boarding Islamic Centre</h5></li>
+              <li><h5>Barita Madinah</h5></li>
             </ul>
           </div>
         </div>
